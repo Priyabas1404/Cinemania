@@ -1,0 +1,52 @@
+*.iml
+.gradle
+local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.log
+*.idea
+*.jar
+/app.jar
+/gradle-7.4-bin.zip
+*.zip
+/kotlin-plugin.jar
+/gradle-api-7.4.jar
+/3rd-party-rt.jar
+caches/
+wrapper/
+/android.jar
+caches/jars-9/o_4848c1aab45c95d64f8213b5db3d956d/gradle-api-7.4.jar
+.navigation
+#built application files
+*.apk
+*.ap_
+*.aab
+# files for the dex VM
+*.dex
+# Java class files
+*.class
+# generated files
+bin/
+gen/
+# Windows thumbnail db
+Thumbs.db
+# Keystore files
+*.jks
+*.keystore
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+output.json
+#NDK
+obj/
+*.iws
+.idea/tasks.xml
+.idea/vcs.xml
