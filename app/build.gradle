@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.rxjavakot'
+    namespace 'com.moviesapt.moviesapt'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.rxjavakot"
+        applicationId "com.moviesapt.moviesapt"
         minSdk 31
         targetSdk 33
         versionCode 1

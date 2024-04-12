@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">RxJavaKot</string>
+    <string name="app_name">MoviesAPT</string>
+    <string name="text_loading">Loading...</string>
+    <string name="connection_problem">Connection Problem!!</string>
+    <string name="movie">movie</string>
+    <string name="movie_info">Movie Info</string>
+    <string name="release_date">ReleaseDate: </string>
+    <string name="release_dt">2019</string>
+    <string name="rating">Rating: </string>
+    <string name="rating_number">8</string>
+    <string name="overview">Overview </string>
+    <string name="overview_text">overview .........</string>
 </resources>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.movie_details.MovieActivity">
+    tools:context="moviesapt.moviesapt.moviesapt.ui.movie_details.MovieActivity">
 
 
     <LinearLayout
@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Connection Problem!!"
+            android:text="@string/connection_problem"
             android:visibility="gone"/>
 
         <ScrollView
@@ -57,14 +57,14 @@
                         android:id="@+id/movie_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="movie"
+                        android:text="@string/movie"
                         android:textStyle="bold"
                         android:textSize="18sp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Movie Info"
+                        android:text="@string/movie_info"
                         android:layout_marginTop="15dp"
                         android:textSize="14sp"
                         android:textStyle="bold"/>
@@ -78,7 +78,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
-                            android:text="ReleaseDate: "
+                            android:text="@string/release_date"
                             android:textSize="12sp"
                             android:textStyle="bold"/>
 
@@ -87,7 +87,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
-                            android:text="2019"
+                            android:text="@string/release_dt"
                             android:textSize="12sp"/>
 
                     </LinearLayout>
@@ -101,7 +101,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
-                            android:text="Rating: "
+                            android:text="@string/rating"
                             android:textSize="12sp"
                             android:textStyle="bold"/>
 
@@ -110,7 +110,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
-                            android:text="8"
+                            android:text="@string/rating_number"
                             android:textSize="12sp"/>
 
                     </LinearLayout>
@@ -119,7 +119,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:text="Overview "
+                        android:text="@string/overview"
                         android:textSize="12sp"
                         android:textStyle="bold"/>
                     <TextView
@@ -127,12 +127,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:text="overview ........."
+                        android:text="@string/overview_text"
                         android:textSize="12sp"/>
 
                 </LinearLayout>
-
-
 
             </LinearLayout>
 
