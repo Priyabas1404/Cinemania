@@ -16,14 +16,14 @@
         android:theme="@style/Theme.MoviesAPT"
         tools:targetApi="31">
         <activity
-            android:name="moviesapt.moviesapt.moviesapt.ui.movie_details.MovieActivity"
+            android:name="cinemania.cinemania.cinemania.ui.movie_details.MovieActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="moviesapt.moviesapt.moviesapt.ui.MainActivity"
+            android:name="cinemania.cinemania.cinemania.ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

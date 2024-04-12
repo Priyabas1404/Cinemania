@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="moviesapt.moviesapt.moviesapt.ui.MainActivity">
+    tools:context="cinemania.cinemania.cinemania.ui.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

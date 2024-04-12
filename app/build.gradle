@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.moviesapt.moviesapt'
+    namespace 'com.cinemania.cinemania'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.moviesapt.moviesapt"
+        applicationId "com.cinemania.cinemania"
         minSdk 31
         targetSdk 33
         versionCode 1
